@@ -8,7 +8,7 @@
 }
 
 .logo img {
-    width: 75%;
+    width: 10%;
     height: auto;
 }
 
@@ -31,5 +31,5 @@
 
 .nav-links a:hover {
     color: #ffd700;
-    /* Change the color on hover as desired */
+   
 }

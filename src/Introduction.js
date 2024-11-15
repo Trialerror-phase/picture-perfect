@@ -6,12 +6,11 @@ const Introduction = () => {
 			<div className="introduction">
 				<div className="text">
 					<h1>
-						Your Photography
+						Your 
 						Journey Begins Here
 					</h1>
 					<p>
-						Discover the beauty
-						through our lens...
+						Find A picture perfect world.
 					</p>
 					<p>
 						Capture moments, tell stories,
@@ -23,11 +22,7 @@ const Introduction = () => {
 					</button>
 				</div>
 				<div className="image">
-					<img
-						src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20240122102536/1-(3).jpg"
-						alt="Introduction"
-					/>
+				<img src="/assets/139475623 (1).jpeg" alt="Introduction" />
 				</div>
 			</div>
 			<div className="buy-plans">
