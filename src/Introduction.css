@@ -1,0 +1,97 @@
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .text {
+    max-width: 50%;
+  }
+  
+  .text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .book-now-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .book-now-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .services {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .services p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .service-options {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .service-option {
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .service-option h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-option p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .book-service-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .book-service-button:hover {
+    background-color: #218838;
+  }
+  
