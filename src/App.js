@@ -1,23 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from '../src/Navbar';
-import Introduction from "../src/Introduction"
-import PhotoGallery from "../src/PhotoGallery"
+import Introduction from "../src/Introduction";
+import PhotoGallery from "../src/PhotoGallery";
+import Blog from "../src/Blog";
 import '../src/App.css';
 
 function App() {
-return (
-	<Router>
-	<div>
-		<Navbar />
-		<Routes>
-		<Route path="/" element={<Introduction />} />
-		<Route path="/gallery" element={<PhotoGallery />} />
+  const [theme, setTheme] = useState('light');
 
-		</Routes>
-	</div>
-	</Router>
-);
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+  };
+
+  return (
+    <div className={theme}>
+      <Router>
+        <Navbar toggleTheme={toggleTheme} theme={theme} />
+        <Routes>
+          <Route path="/" element={<Introduction />} />
+          <Route path="/gallery" element={<PhotoGallery />} />
+          <Route path="/blog" element={<Blog />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
