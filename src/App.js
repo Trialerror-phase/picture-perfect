@@ -4,6 +4,7 @@ import Navbar from '../src/Navbar';
 import Introduction from "../src/Introduction";
 import PhotoGallery from "../src/PhotoGallery";
 import Blog from "../src/Blog";
+import Contact from './Contact';
 import '../src/App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Introduction />} />
           <Route path="/gallery" element={<PhotoGallery />} />
           <Route path="/blog" element={<Blog />} />
+		  <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>
