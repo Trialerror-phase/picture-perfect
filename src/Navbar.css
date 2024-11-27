@@ -43,10 +43,7 @@
     color: var(--navbar-text, #fff);
   }
   
-  .logo img {
-    height: 50px;
-    cursor: pointer;
-  }
+ 
   
   .nav-links {
     list-style: none;
